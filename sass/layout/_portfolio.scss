@@ -1,0 +1,139 @@
+
+.product{
+     @media screen and(min-width: 480px){
+        width: 480px;
+    }
+    @media screen and(min-width: 768px){
+        width: 768px;
+}
+ @media screen and(min-width: 1200px){
+        width: 1200px;
+       .item{
+          flex-basis: calc(100% / 3 - 50px);
+       } 
+}
+margin: auto;
+}
+
+.port-button{
+  margin-top: 60px;
+  margin-bottom: 25px;
+  @media screen and (max-width: 1199px){
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+.product-item{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: var(--main-title-color);
+margin-top: 20px;
+text-align: left;
+padding-left: 24px;
+padding-right: 24px;
+}
+
+.product-text{
+font-size: 16px;
+line-height: 1.87;
+color: var(--main-text-color);
+margin-top: 4px;
+text-align: left;
+padding-bottom: 20px;
+padding-left: 24px;
+
+}
+
+.nav{
+ 
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-list{
+    padding-left: 0;
+     @media screen and(min-width: 1200px){
+       display: flex;
+       justify-content: center;
+     }
+}
+
+.item-port{
+  @media screen and(max-width: 1199px) {
+    display: inline;
+  }
+  
+}
+
+.top-overlay{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.top-products{
+position: absolute;
+top: 0;
+left: 0;
+background: rgba(33, 150, 243, 0.9);
+height: 100%;
+align-items: left;
+font-size: 18px;
+line-height: 1.55;
+letter-spacing: 0.03em;
+color: #ffffff;
+padding: 63px 23px;
+transform: translateY(100%);
+transition: 250ms;
+}
+
+.item:hover .top-products {
+    transform: translateY(0);
+}
+
+.product-list{
+  padding-left: 0;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    // width: calc((100% - 60px) / 2);
+  }
+}
+
+// .product-list:nth-child(3n + 1){
+//     // display: flex;
+//     padding-top: 40px;
+//     padding-left: 0;
+//   flex-wrap: wrap;
+// }
+  
+.item{
+  @media screen and (min-width: 768px){
+ width: calc((100% - 64px) / 2);
+ margin: 15px;
+  }
+}
+
+.item{
+    border: 1px solid #EEEEEE;
+   
+    @media screen and (max-width: 767px) {
+      margin-bottom: 30px; 
+    }      
+}
+.item:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
+ 
+.images{
+    display: block;
+  height: auto;
+  width: 100%;
+
+}
+
+    

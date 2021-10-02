@@ -1,0 +1,38 @@
+.input-wrap{
+    display: block;
+position: relative;
+}
+
+
+.form-input:hover + .form-icon,
+.form-input:focus + .form-icon{
+fill: #2196F3;
+}
+
+
+
+.form-input{
+width: 448px;
+height: 40px;
+margin-bottom: 10px;
+font-size: 18px;
+padding-left: 42px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+
+.form-input:hover,
+.form-input:focus{
+border: 1px solid #2196F3;
+box-sizing: border-box;
+border-radius: 4px;
+outline: #2196F3;
+transition: 250ms; 
+}
+
+.form-icon:hover,
+.form-icon:focus{
+    color: var(--accent-color);
+}

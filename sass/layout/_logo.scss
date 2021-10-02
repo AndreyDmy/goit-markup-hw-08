@@ -1,0 +1,23 @@
+.header-navigation__logo{
+
+@media screen and(min-width:1200px){
+     margin-right: 93px;
+}
+    @media screen and(max-width:480px) {
+        margin: 0;
+        
+    }
+}
+.web{
+font-weight: 700;
+font-size: 26px;
+line-height: 1.16;
+color:var(--accent-color)
+}
+
+.header-navigation__studio{
+font-weight: 700;
+font-size: 24px;
+line-height: 1.16;
+color: #000000;
+}

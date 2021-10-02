@@ -1,0 +1,17 @@
+.comment{
+    height: 120px;
+resize: none;
+border: 1px solid rgba(33, 33, 33, 0.2);
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+
+.comment:hover,
+.comment:focus{
+border: 1px solid #2196F3;
+box-sizing: border-box;
+border-radius: 4px;
+outline: #2196F3;
+transition: 250ms; 
+}

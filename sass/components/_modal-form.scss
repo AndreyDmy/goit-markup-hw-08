@@ -1,0 +1,50 @@
+.form-flex{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.form-text{
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+display: block;
+width: 100%;
+margin-top: 40px;
+margin-bottom: 6px;
+}
+
+.form-heading{
+    font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.01em;
+color:#757575;
+margin-bottom: 4px;
+}
+
+.form-headings{
+
+    font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
+
+.form-icon{
+   fill: #212121;
+   position: absolute;
+   left: 12px;
+   transform: translateY(50%);
+  
+}
+
+.form-input:checked + .form-icon{
+    background-color: var(--accent-color);
+}
+
+.form-icon:hover,
+.form-icon:focus{
+fill: #2196F3;
+transition: 250ms; 
+}

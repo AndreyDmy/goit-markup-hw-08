@@ -1,0 +1,31 @@
+.header-navigation__link {
+display: block;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color:var(--main-title-color)
+}
+
+.header-right{
+   // align-items: center;
+   display: flex;
+}
+
+.header-right__item{
+    display: flex;
+   //  margin-left: 50px;
+    align-items: center;
+   }
+// .header-right__item :not(:last-child){
+// margin-left: 30px;
+// }
+
+
+.header-navigation__link:hover,
+.header-navigation__link:focus{
+color:var(--accent-color)
+}
+.active { 
+ color:#2196F3;
+
+}
