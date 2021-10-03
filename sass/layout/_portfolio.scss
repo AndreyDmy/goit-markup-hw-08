@@ -2,12 +2,15 @@
 .product{
      @media screen and(min-width: 480px){
         width: 480px;
+        margin-bottom: 60px;
     }
     @media screen and(min-width: 768px){
         width: 768px;
+        margin-bottom: 60px;
 }
  @media screen and(min-width: 1200px){
         width: 1200px;
+        margin-bottom: 94px;
        .item{
           flex-basis: calc(100% / 3 - 50px);
        } 
@@ -30,7 +33,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 color: var(--main-title-color);
-margin-top: 20px;
+padding-top: 20px;
 text-align: left;
 padding-left: 24px;
 padding-right: 24px;
@@ -118,7 +121,7 @@ transition: 250ms;
 }
 
 .item{
-    border: 1px solid #EEEEEE;
+    // border: 1px solid #EEEEEE;
    
     @media screen and (max-width: 767px) {
       margin-bottom: 30px; 
@@ -137,3 +140,10 @@ transition: 250ms;
 }
 
     
+.thumb{
+
+  max-height: 100%;
+border-bottom: 1px solid #EEEEEE;
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid#EEEEEE;
+}

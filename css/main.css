@@ -1302,18 +1302,21 @@ img {
 @media screen and (min-width: 480px) {
   .product {
     width: 480px;
+    margin-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .product {
     width: 768px;
+    margin-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .product {
     width: 1200px;
+    margin-bottom: 94px;
   }
   .product .item {
     flex-basis: calc(100% / 3 - 50px);
@@ -1337,7 +1340,7 @@ img {
   font-size: 18px;
   line-height: 2;
   color: var(--main-title-color);
-  margin-top: 20px;
+  padding-top: 20px;
   text-align: left;
   padding-left: 24px;
   padding-right: 24px;
@@ -1418,10 +1421,6 @@ img {
   }
 }
 
-.item {
-  border: 1px solid #EEEEEE;
-}
-
 @media screen and (max-width: 767px) {
   .item {
     margin-bottom: 30px;
@@ -1436,6 +1435,13 @@ img {
   display: block;
   height: auto;
   width: 100%;
+}
+
+.thumb {
+  max-height: 100%;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
 }
 
 .backdrop {
